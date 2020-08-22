@@ -12,4 +12,8 @@ public class TestController {
 		return "success";
 	}
 	
+	@RequestMapping("/number")
+	public int number() {
+	return 10;
+	}
 }
